@@ -9,6 +9,18 @@
       "search-not-found-layout"
     ]
   },
+  "search-result-layout.mobile": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
+    ]
+  },
   "search-result-layout.desktop": {
     "children": [
       "breadcrumb.search",
@@ -20,5 +32,18 @@
       "filter-navigator.v3",
       "search-fetch-more"
     ]
+  },
+  "search-not-found-layout": {
+    "children": [
+      "rich-text#not-found"
+    ],
+    "rich-text": {
+      "props": {
+        "text": "*Produto não encontrado*",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+      }
+    }
   }
 }

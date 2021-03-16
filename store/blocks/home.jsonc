@@ -5,7 +5,9 @@
   "rich-text": {
     "props": {
       "text": "*Hello, World!*",
-      "textPosition": "RIGHT"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
     }
   },
   "info-card#button-right": {
@@ -17,7 +19,7 @@
       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
       "callToActionMode": "button",
       "callToActionText": "Explore",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/",
       "textAlignment": "center"
     }
   },
@@ -30,6 +32,7 @@
       "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
       "callToActionMode": "link",
       "callToActionText": "Go to collection",
+      "callToActionUrl": "/",
       "textAlignment": "center"
     }
   }
