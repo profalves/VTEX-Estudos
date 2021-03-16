@@ -36,14 +36,14 @@
   "search-not-found-layout": {
     "children": [
       "rich-text#not-found"
-    ],
-    "rich-text": {
-      "props": {
-        "text": "*Produto não encontrado*",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-3"
-      }
+    ]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "text": "*Produto não encontrado*",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
     }
   }
 }

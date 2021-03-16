@@ -1,0 +1,21 @@
+.imageElement--cover {
+  object-fit: cover;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+  color: white;
+  background-color: gray;
+  border: transparent;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  color: white;
+  background-color: #072c75;
+  border: transparent;
+}
+
+.infoCardContainer {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
+}
